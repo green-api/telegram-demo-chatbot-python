@@ -14,9 +14,9 @@ class Envs(BaseSettings):
 
     # Link for file urls (for DEBUG mode only)
     # (required when DEBUG=True)
-    debug_link_greenapi_ru: str | None = 'https://raw.githubusercontent.com/green-api/telegram-demo-chatbot-python/refs/heads/main/media/welcome_ru.png'
-    debug_link_greenapi_en: str | None = 'https://raw.githubusercontent.com/green-api/telegram-demo-chatbot-python/refs/heads/main/media/welcome_en.png'
-    debug_link_python_chatbot: str | None = 'https://raw.githubusercontent.com/green-api/telegram-demo-chatbot-python/refs/heads/main/media/about.png'
+    debug_link_greenapi_ru: str | None = 'https://raw.githubusercontent.com/green-api/telegram-demo-chatbot-python/refs/heads/master/media/welcome_ru.png'
+    debug_link_greenapi_en: str | None = 'https://raw.githubusercontent.com/green-api/telegram-demo-chatbot-python/refs/heads/master/media/welcome_en.png'
+    debug_link_python_chatbot: str | None = 'https://raw.githubusercontent.com/green-api/telegram-demo-chatbot-python/refs/heads/master/media/about.png'
     debug_link_pdf: str | None = 'https://storage.yandexcloud.net/sw-prod-03-test/ChatBot/corgi.pdf'
     debug_link_jpg: str | None = 'https://storage.yandexcloud.net/sw-prod-03-test/ChatBot/corgi.jpg'
     debug_link_audio_ru: str | None = 'https://storage.yandexcloud.net/sw-prod-03-test/ChatBot/Audio_bot.mp3'

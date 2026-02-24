@@ -59,13 +59,14 @@ def get_main_menu_image_by_lang_code(lang_code: str) -> Tuple[str, str]:
     RUSSIAN_IMAGE_CODES = ("kz", "ru")
 
     image_path = (
-        "media/welcome_ru.png"
+        "https://raw.githubusercontent.com/green-api/telegram-demo-chatbot-python/refs/heads/master/media/welcome_ru.png"
         if lang_code in RUSSIAN_IMAGE_CODES
         else "media/welcome_en.png"
     )
 
     image_name = (
-        "welcome_ru.png" if lang_code in RUSSIAN_IMAGE_CODES else "welcome_en.png"
+        "https://raw.githubusercontent.com/green-api/telegram-demo-chatbot-python/refs/heads/master/media/welcome_ru.png" if lang_code in RUSSIAN_IMAGE_CODES
+        else "https://raw.githubusercontent.com/green-api/telegram-demo-chatbot-python/refs/heads/master/media/welcome_en.png"
     )
 
     return image_path, image_name

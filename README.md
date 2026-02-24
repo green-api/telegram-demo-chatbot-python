@@ -5,7 +5,7 @@
 - [Документация на русском языке](https://github.com/green-api/telegram-demo-chatbot-python/blob/main/README_RU.md).  
 
 Demo version of telegram chatbot based on API service [GREEN-API](https://green-api.com/en).
-Using API, the chatbot sends text messages, files, images, music, videos, contacts, geolocation, surveys, requests an avatar, sends links, creates a group with the bot, and quotes a message.  
+Using API, the chatbot sends text messages, files, images, music, videos, contacts, geolocation, requests an avatar and creates a group with the bot.  
 
 ## Features  
 
@@ -13,7 +13,6 @@ You could build an AI Telegram chatbot powered by the OpenAI GPT model and the T
 
 - GREEN-API: Just for 12$ and less for one month, or try the free plan  
 - Python  3.8 or higher  
-- Support various OpenAI models  
 - Self-hosting or running locally  
 - Don't need WABA  
 
